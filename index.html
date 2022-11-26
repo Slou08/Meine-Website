@@ -25,5 +25,48 @@
             </ul>
         </div>
     </nav>
+
+
+    <div class="test">
+    <input type="range" min="0" max="10" value="3">
+    <input type="color">
+    <input type="date">
+    <input type="time">
+    <input type="datetime-local">
+    <input type="file">
+    <input type="image">
+    <input type="radio">
+    <input type="reset">
+    <input type="url">
+    <input type="tel">
+
+    <details class="det">
+        <summary>About</summary>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+    </details>
+
+    <progress max="100" value="30"></progress>
+
+    <datalist id="sprachen">
+        <option value="Deutsch"></option>
+        <option value="Englisch"></option>
+        <option value="Spanisch"></option>
+        <option value="Portugisisch"></option>
+        <option value="Kanadisch"></option>
+        <option value="Rusisch"></option>
+    </datalist>
+    <input type="search" placeholder="Suche nach Sprachen" list="sprachen">
+    </div>
+
+    <form method="post" enctype="multipart/form-data">
+        <div>
+          <label for="file">Choose file to upload</label>
+          <input type="file" id="file" name="file" multiple />
+        </div>
+        <div>
+          <button>Submit</button>
+        </div>
+      </form>
+      
 </body>
 </html>
